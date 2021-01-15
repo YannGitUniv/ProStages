@@ -7503,16 +7503,16 @@
         },
         {
             "name": "symfony/web-server-bundle",
-            "version": "v4.4.17",
+            "version": "v4.4.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/web-server-bundle.git",
-                "reference": "6e86c6523bc452b595650fc07d621216eac5f373"
+                "reference": "d1eb905afca7d4957420c4b6809e2275d3e5e85d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/web-server-bundle/zipball/6e86c6523bc452b595650fc07d621216eac5f373",
-                "reference": "6e86c6523bc452b595650fc07d621216eac5f373",
+                "url": "https://api.github.com/repos/symfony/web-server-bundle/zipball/d1eb905afca7d4957420c4b6809e2275d3e5e85d",
+                "reference": "d1eb905afca7d4957420c4b6809e2275d3e5e85d",
                 "shasum": ""
             },
             "require": {
@@ -7567,7 +7567,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-28T20:42:29+00:00"
+            "time": "2020-12-08T16:59:59+00:00"
         }
     ],
     "aliases": [],
