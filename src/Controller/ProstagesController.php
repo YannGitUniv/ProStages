@@ -26,4 +26,3 @@ class ProstagesController extends AbstractController
 		['idRessource' => $id]);
     }
 }
- 
