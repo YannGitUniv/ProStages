@@ -13,9 +13,16 @@ class ProstagesController extends AbstractController
      */
     public function index(): Response
     {
-        return $this->render('prostages/index.html.twig', [
-            'controller_name' => 'ProstagesController',
-        ]);
+        return $this->render('prostages/index.html.twig');
+    }
+	
+	
+	/**
+     * @Route("/ressources/345", name="prostages_ressource345")
+     */
+    public function afficherRessourcePeda(): Response
+    {
+        return $this->render('prostages/affichageRessources.html.twig');
     }
 }
  
