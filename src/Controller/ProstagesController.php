@@ -18,11 +18,29 @@ class ProstagesController extends AbstractController
 	
 	
 	/**
-     * @Route("/ressources/{id}", name="prostages_ressource")
+     * @Route("/stages/{id}", name="prostages_stages")
      */
-    public function afficherRessourcePeda($id)
+    public function afficherStages($id)
     {
-        return $this->render('prostages/affichageRessources.html.twig',
-		['idRessource' => $id]);
+        return $this->render('prostages/affichageStages.html.twig',
+		['idStage' => $id]);
+    }
+	
+	
+	/**
+     * @Route("/entreprises", name="prostages_entreprises")
+     */
+    public function afficherEntreprises ()
+    {
+        return $this->render('prostages/affichageEntreprises.html.twig');
+    }
+	
+	
+	/**
+     * @Route("/formations", name="prostages_formations")
+     */
+    public function afficherFormations ()
+    {
+        return $this->render('prostages/affichageFormations.html.twig');
     }
 }
